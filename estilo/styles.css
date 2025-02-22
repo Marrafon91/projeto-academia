@@ -111,7 +111,9 @@ section {
   max-width: 900px;
   border-radius: 2em;
   border: 10px ridge #4A2EFF;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -15px;
   padding: 1rem;
   background-size: cover;
   
