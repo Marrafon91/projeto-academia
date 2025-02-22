@@ -115,6 +115,7 @@ section {
   margin-bottom: 1rem;
   margin-left: -15px;
   padding: 1rem;
+  align-self: center;
   background-size: cover;
   
 }
