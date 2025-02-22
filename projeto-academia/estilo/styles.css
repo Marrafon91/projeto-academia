@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.dancing-script-regular {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.sigmar-regular {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+:root {
+  --primary-color: #121212;
+  --secondary-color: #535066;
+  --tertiary-color: #4A2EFF;
+  --quaternary-color: #615999;
+  --quinary-color: #5E4ECC;
+}
+
+body, html {
+  flex: auto;
+  text-indent: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  line-height: 1.5;
+  color:var(--primary-color);
+  background-image: radial-gradient(circle, #615999, #ffffff);
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column nowrap;
+  background-image: radial-gradient(circle, #4A2EFF, #121212);
+  color: white;
+  padding: 1rem;
+  font-family:"Sigmar", serif;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+  
+}
+
+header > h1  {
+    font-size: 2.5em;
+    font-family: "Dancing Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: black 2px 2px 6px;
+    text-align: center;
+    display: block;
+    margin-top: 0.5em;
+}
+
+header > nav {
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+header > nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-family: "Sigmar", serif;
+}
+
+header > nav > ul > li > a {
+  text-shadow: black 2px 2px 6px;
+  text-decoration: none;
+  flex-flow: row nowrap;
+  color: white;
+}
+
+header > nav > ul > li > a:hover {
+  background-color: #1212126e;
+  padding: 5px;
+  box-shadow: 2px 2px 6px white;
+  border-radius: 0.5em;
+  transition: 0.5s;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+section {
+  border-radius: 2em;
+  border: 10px ridge #4A2EFF;
+  margin: 10px;
+  padding: 1rem;
+}
+
+section:hover {
+  padding: 5px;
+  border-radius: 0.5em;
+  transition: 1s;
+  
+}
+
+section#sobre {
+  padding: 1rem;
+  text-align: justify;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  background-image: -webkit-linear-gradient(90deg, #4A2EFF, #ffffffe1);
+  color: var(--primary-color);
+  font-family: "Dancing Script", serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+}
+
+section#sobre > h2 {
+    font-size: 2em;
+    font-family: "Dancing Script", serif;
+    text-shadow: rgba(0, 0, 0, 0.527) 2px 2px 6px;
+    font-weight: 900;
+    
+}
+
+section#sobre > p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(255, 255, 255, 0.795) 4px 4px 6px;
+    font-weight: 600;
+}
+
+section#sobre > img {
+    width: 60%;
+    height: 350px;
+    border-radius: 1em;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.61);
+}
+
+section#treinos {
+  padding: 1rem;
+  text-align: justify;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  background-image: -webkit-linear-gradient(90deg, #535066, #ffffff);
+  color: var(--primary-color);
+  font-family: "Dancing Script", serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.61);
+}
+
+section#treinos > h2 {
+    font-size: 2em;
+    font-family: "Dancing Script", serif;
+    text-shadow: rgba(0, 0, 0, 0.61) 4px 4px 6px;
+    font-weight: 900;
+    
+}
+
+section#treinos > p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(255, 255, 255, 0.795) 4px 4px 6px;
+    font-weight: 600;
+}
+
+section#treinos > img {
+    width: 60%;
+    height: 350px;
+    border-radius: 1em;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+}
+
+section#dicas {
+  padding: 1rem;
+  text-align: justify;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  background-image: -webkit-linear-gradient(90deg, #4A2EFF, #ffffff);
+  color: var(--primary-color);
+  font-family: "Dancing Script", serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.61);
+}
+
+section#dicas > h2 {
+    font-size: 2em;
+    font-family: "Dancing Script", serif;
+    text-shadow: rgba(0, 0, 0, 0.61) 4px 4px 6px;
+    font-weight: 900;
+    
+}
+
+section#dicas > p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(255, 255, 255, 0.795) 4px 4px 6px;
+    font-weight: 600;
+}
+
+section#dicas > img {
+    width: 60%;
+    height: 350px;
+    border-radius: 1em;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+}
+
+footer {
+  width: 100vw;
+  background-image: radial-gradient(circle, #4A2EFF, #121212);
+  color: white;
+  border-radius: 1em;
+  padding: 1rem;
+  font-family:"Sigmar", serif;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+  text-align: center;
+}
+
+footer > p {
+    font-size: 1.5em;
+    font-family: "roboto", sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.61) 4px 4px 6px;
+    font-weight: 800;
+    
+}
+
+footer:hover {
+  border-radius: 0.5em;
+  transition: 1s;
+  
+}
