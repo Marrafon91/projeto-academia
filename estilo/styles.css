@@ -121,7 +121,7 @@ section:hover {
 
 section#sobre, section#treinos, section#dicas {
   padding: 1rem;
-  text-align: justify;
+  text-align: center;
   background-size: cover;
   background-attachment: fixed;
   max-width: 900px;
