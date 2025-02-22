@@ -48,13 +48,12 @@ body, html {
 header {
   width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
   background-image: radial-gradient(circle, #4A2EFF, #121212);
   color: white;
   padding-bottom: 1rem;
-  border-radius: 1em;
   font-family:"Sigmar", serif;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
   
@@ -99,11 +98,7 @@ header > nav > ul > li > a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
 }
-header:hover {
-  border-radius: 0.5em;
-  transition: 1s;
-  
-}
+
 main {
     display: flex;
     flex-flow: column nowrap;
@@ -240,23 +235,15 @@ footer {
   width: 100vw;
   background-image: radial-gradient(circle, #4A2EFF, #121212);
   color: white;
-  border-radius: 1em;
-  padding: 1rem;
   font-family:"Sigmar", serif;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
   text-align: center;
 }
 
 footer > p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: "roboto", sans-serif;
     text-shadow: rgba(0, 0, 0, 0.61) 4px 4px 6px;
     font-weight: 800;
     
-}
-
-footer:hover {
-  border-radius: 0.5em;
-  transition: 1s;
-  
 }
